@@ -16,6 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        app:menu="@menu/menu_application"
         android:id="@+id/bottomNavigationViewMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
